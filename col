@@ -1,0 +1,9 @@
+ --primary-color: #fed330;
+  --secondary-color: #ff2525;
+  --white-color: rgb(255,255,255);
+  --light-color: #f4f4f4;
+  --grey-color: #979b9d;
+  --dark-color: rgb(23,24,32);
+
+  --trans-back-co: background-color .3s, color .3s;
+  --trans-co: color .3s;

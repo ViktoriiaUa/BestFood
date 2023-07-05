@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BestFood</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
+</head>
+    <div>
+      <div id="page" class="site">
+        <header>
+          <div class="container">
+            <nav>
+              <div class="left">
+                <div class="logo"><a href="#">.BestFood</a></div>
+                <div class="menu">
+                  <ul>
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Адреса</a></li>
+                    <li><a href="#">Контакти</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="right">
+                <div class="icons">
+                  <a href="#" class="s-trigger">
+                    <i class="ri-search-line"></i>
+                    <i class="ri-close-line"></i>
+                  </a>
+                  <a href="#" class="icart">
+                    <i class="ri-shopping-cart-line"></i>
+                    <span class="number">0</span>
+                  </a>
+                  <a href="#" class="m-trigger mobile-only">
+                    <i class="ri-menu-line"></i>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <form action="" class="search">
+            <div class="container">
+              <input type="search" placeholder="Пошук...">
+            </div>
+          </form>
+        </header>
+    <main>
+
+<!--HERO не рухати зібється хвилька -->
+          <div class="hero">
+            <div class="container">
+              <h1> Не чекай поки зголоднієш!</h1>
+              <span class="text">Готує найкращий шеф </span>
+              <div class="slider">
+      <div class="thumb-big swiper">
+                  <div class="wrapper swiper-wrapper">
+                    <div class="item swiper-slide">
+                      <div class="main">
+                        <div class="tags link-slide">
+                        <span>Сніданкок</span>
+                        <div class="prise"> 150 UAN </div>
+                        <a href="#"> Замовити </a>
+                      </div>
+                      <div class="image"><img src="slider/food1.png" alt=""></div>
+                    </div>
+                  </div>
+                  <div class="item swiper-slide">
+                    <div class="main">
+                      <div class="tags link-slide">
+                      <span>Обід</span>
+                           <div class="prise"> 140 UAN </div>
+                             <a href="#"> Замовити </a>
+                         </div>
+                    <div class="image"><img src="slider/food2.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="item swiper-slide">
+                  <div class="main">
+                    <div class="tags link-slide">
+                    <span>Вечеря</span>
+                    <div class="prise"> 108 UAN </div>
+                    <a href="#"> Замовити </a>
+                  </div>
+                  <div class="image"><img src="slider/food3.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+      <div thumbSlider class="thumb-nav swiper">
+              <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                      <div class="item">
+                        <h4> Ранкове меню <br><span> Яйце пашот </span></h4>
+                            <div class="thumbnail">
+                              <img src="slider/food1.png" alt="">
+                        </div>
+                      </div>
+                      </li>
+                    <li class="swiper-slide">
+                      <div class="item">
+                        <h4> Обіднє меню <br><span> Варена квасоля </span></h4>
+                          <div class="thumbnail">
+                            <img src="slider/food2.png" alt="">
+                        </div>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <div class="item">
+                        <h4> Вечірнє меню <br><span> Лосось слабосолений </span></h4>
+                        <div class="thumbnail">
+                          <img src="slider/food3.png" alt="">
+                        </div>
+                      </div>
+                   </li>
+            </ul>
+      </div>
+      </div>
+    </div>
+    <div class="bg-primary"></div>
+    </div>
+<!-- end hero -->
+    
+
+
+<!-- CATEGORY не рухати зібється хвилька --> 
+   <div class="categories">
+      <div class="container">
+         <div class="head-brief left animate">
+            <h2><br> Що ми приготували для тебе</h2>
+                 <p> Лише найкращі кухарі, які вже творять сучасну ресторанну культуру. Тут ти не обмежуєш себе меню, а можеш замовити щось на свій смак - вже як домовишся з шефом. Кухарі підберуть страви тобі до смаку.</p><br>
+                   </div>
+          <div class="cat-item">
+                       <ul class="up animate">
+                        <li>
+                           <div class="icon covering">
+                             <img src="categories/cat1.jpg" alt="">
+                              </div>
+                                 <h3> Овочі </h3>
+                                   <div class="qty">
+                                 <span> items </span>
+                              <strong> 9 </strong>
+                            </div>
+                         <a href="#" class="link"></a>
+                      </li>
+                      <li>
+                        <div class="icon covering">
+                          <img src="categories/cat2.jpg" alt="">
+                           </div>
+                              <h3>Морепроукти</h3>
+                                <div class="qty">
+                              <span> items </span>
+                           <strong> 15 </strong>
+                         </div>
+                      <a href="#" class="link"></a>
+                   </li>
+                   <li>
+                    <div class="icon covering">
+                      <img src="categories/cat3.jpg" alt="">
+                       </div>
+                          <h3>Горіхи та насіння</h3>
+                            <div class="qty">
+                          <span> items </span>
+                       <strong> 24 </strong>
+                     </div>
+                  <a href="#" class="link"></a>
+               </li>
+               <li>
+                <div class="icon covering">
+                  <img src="categories/cat4.jpg" alt="">
+                   </div>
+                      <h3>Трави та спеції</h3>
+                        <div class="qty">
+                      <span> items </span>
+                   <strong> 7 </strong>
+                 </div>
+              <a href="#" class="link"></a>
+           </li>
+           <li>
+            <div class="icon covering">
+              <img src="categories/cat5.jpg" alt="">
+               </div>
+                  <h3>Випічка</h3>
+                    <div class="qty">
+                  <span> items </span>
+               <strong> 12 </strong>
+             </div>
+          <a href="#" class="link"></a>
+       </li>
+       <li>
+        <div class="icon covering">
+          <img src="categories/cat6.jpg" alt="">
+           </div>
+              <h3>Гарнір</h3>
+                <div class="qty">
+              <span> items </span>
+           <strong> 10 </strong>
+         </div>
+      <a href="#" class="link"></a>
+       </li> 
+  </ul> 
+  
+              </div>
+           </div>
+      <div class="bg-primary"></div>
+      </div>
+
+<!-- end category -->
+
+
+
+<!--PRODUCTS -->              
+<div class="tabbed has-bg">
+                <div class="container">
+                  <div class="head-brief up animate">
+                    <h3><br> Найпопулярніші продукти </h3>
+                         <p> Рецепти кулінарних шедеврів цієї кухні давно перевірені часом, вони відрізняються вмілим комбінуванням різних соусів та гарнірів. Всі страви європейської кухні охопити відразу неможливо, так як рецепти її включають в себе переплетення різних народів, а також традицій та різних смакових уподобань. Вони відрізняються легкістю приготування та натуральністю продуктів.</p>
+                           </div>
+
+                   <nav class="tnav link-slide left animate">
+                           <ul>
+                      <li><a href="#0"> Випічка </a></li>
+                      <li><a href="#0"> Гарнір </a></li>
+                      <li><a href="#0"> Спеції </a></li>
+                      <li><a href="#0"> Горіхи </a></li>
+                      <li><a href="#0"> Морепроукти </a></li>
+                      <li><a href="#0"> Овочі </a></li>
+                    </ul>
+                  </nav>
+                          <div class="tabbed-item">
+                            <div class="products">
+                              <div class="item">
+                                <ul>
+<!-- 1 -->
+                                    <li>
+                                       <div class="thumbnail covering">
+                                            <a href="#">
+                                                <img src="products/baked1.jpg" alt="">
+                                               </a>
+                                            </div>
+                                               <div class="meta">
+                                                  <div class="caterate">
+                                                    <span class="cat"><a href="#">Рейтинг</a></span>
+                                                        <span class="rating">
+                                                         <i class="ri-star-fill"></i>
+                                                         <span>4.9</span>
+                                                         </span>
+                                                         </div>
+                                                    <h2><a href="#">Булочка для бургера</a></h2>
+                                                     <div class="prise">
+                                                   <strong class="current"> 21.99 UAN</strong>
+                                                  </div>
+                                               <div class="buttons">
+                                                  <button> Додати в кошик </button>
+                                                  <a href="#" class="line">
+                                                <i class="ri-heart-line"></i>
+                                             </a>
+                                          </div>
+                                        </div>
+                                       </div>
+                                      </li>
+  <!-- 2 -->
+                                <li>
+                                  <div class="thumbnail covering">
+                                       <a href="#">
+                                           <img src="products/baked2.jpg" alt="">
+                                          </a>
+                                       </div>
+                                          <div class="meta">
+                                             <div class="caterate">
+                                               <span class="cat"><a href="#">Рейтинг</a></span>
+                                                   <span class="rating">
+                                                    <i class="ri-star-fill"></i>
+                                                    <span>4.9</span>
+                                                    </span>
+                                                    </div>
+                                               <h2><a href="#">Фокача</a></h2>
+                                                <div class="prise">
+                                              <strong class="current"> 21.99 UAN</strong>
+                                             </div>
+                                          <div class="buttons">
+                                             <button> Додати в кошик </button>
+                                             <a href="#" class="line"><i class="ri-heart-line"></i></a>
+                                     </div> 
+                                    </div>
+                            </li>
+ <!-- 3 -->
+                            <li>
+                              <div class="thumbnail covering">
+                                   <a href="#">
+                                       <img src="products/baked3.jpg" alt="">
+                                      </a>
+                                   </div>
+                                      <div class="meta">
+                                         <div class="caterate">
+                                           <span class="cat"><a href="#">Рейтинг</a></span>
+                                               <span class="rating">
+                                                <i class="ri-star-fill"></i>
+                                                <span>4.9</span>
+                                                </span>
+                                                </div>
+                                           <h2><a href="#">Торт</a></h2>
+                                            <div class="prise">
+                                          <strong class="current"> 21.99 UAN</strong>
+                                         </div>
+                                      <div class="buttons">
+                                         <button> Додати в кошик </button>
+                                         <a href="#" class="line">
+                                       <i class="ri-heart-line"></i></a>
+                                 </div>
+                                </div>
+                            </li>            
+  <!-- 4 -->
+                      <li>
+                          <div class="thumbnail covering">
+                               <a href="#">
+                                   <img src="products/baked4.jpg" alt="">
+                                  </a>
+                               </div>
+                                  <div class="meta">
+                                     <div class="caterate">
+                                       <span class="cat"><a href="#">Рейтинг</a></span>
+                                           <span class="rating">
+                                            <i class="ri-star-fill"></i>
+                                            <span>4.9</span>
+                                            </span>
+                                            </div>
+                                       <h2><a href="#">Хліб</a></h2>
+                                        <div class="prise">
+                                      <strong class="current"> 21.99 UAN</strong>
+                                     </div>
+                                  <div class="buttons">
+                                     <button> Додати в кошик </button>
+                                     <a href="#" class="line">
+                                   <i class="ri-heart-line"></i>
+                                </a>
+                             </div>
+                            </div>
+                        </li>
+                    
+  <!-- 5 -->
+  <li>
+    <div class="thumbnail covering">
+         <a href="#">
+             <img src="products/baked5.jpg" alt="">
+            </a>
+         </div>
+            <div class="meta">
+               <div class="caterate">
+                 <span class="cat"><a href="#">Рейтинг</a></span>
+                     <span class="rating">
+                      <i class="ri-star-fill"></i>
+                      <span>4.9</span>
+                      </span>
+                      </div>
+                 <h2><a href="#">Круасан</a></h2>
+                  <div class="prise">
+                <strong class="current"> 21.99 UAN</strong>
+               </div>
+            <div class="buttons">
+               <button> Додати в кошик </button>
+               <a href="#" class="line">
+             <i class="ri-heart-line"></i>
+          </a>
+       </div>
+      </div>
+  </li>
+
+<!-- 6 -->
+<li>
+  <div class="thumbnail covering">
+       <a href="#">
+           <img src="products/baked6.jpg" alt="">
+          </a>
+       </div>
+          <div class="meta">
+             <div class="caterate">
+               <span class="cat"><a href="#">Рейтинг</a></span>
+                   <span class="rating">
+                    <i class="ri-star-fill"></i>
+                    <span>4.9</span>
+                    </span>
+                    </div>
+               <h2><a href="#">Булка з джемом</a></h2>
+                <div class="prise">
+              <strong class="current"> 21.99 UAN</strong>
+             </div>
+          <div class="buttons">
+             <button> Додати в кошик </button>
+             <a href="#" class="line">
+           <i class="ri-heart-line"></i>
+        </a>
+     </div>
+    </div>
+</li>
+
+<!-- 7 -->
+<li>
+  <div class="thumbnail covering">
+       <a href="#">
+           <img src="products/baked7.jpg" alt="">
+          </a>
+       </div>
+          <div class="meta">
+             <div class="caterate">
+               <span class="cat"><a href="#">Рейтинг</a></span>
+                   <span class="rating">
+                    <i class="ri-star-fill"></i>
+                    <span>4.9</span>
+                    </span>
+                    </div>
+               <h2><a href="#">Печиво</a></h2>
+                <div class="prise">
+              <strong class="current"> 21.99 UAN</strong>
+             </div>
+          <div class="buttons">
+             <button> Додати в кошик </button>
+             <a href="#" class="line">
+           <i class="ri-heart-line"></i>
+        </a>
+     </div>
+    </div>
+    </li>
+
+<!-- 8 -->
+<li>
+  <div class="thumbnail covering">
+       <a href="#">
+           <img src="products/baked8.jpg" alt="">
+          </a>
+       </div>
+          <div class="meta">
+             <div class="caterate">
+               <span class="cat"><a href="#">Рейтинг</a></span>
+                   <span class="rating">
+                    <i class="ri-star-fill"></i>
+                    <span>4.9</span>
+                    </span>
+                    </div>
+               <h2><a href="#">Вафлі</a></h2>
+                <div class="prise">
+              <strong class="current"> 21.99 UAN</strong>
+             </div>
+          <div class="buttons">
+             <button> Додати в кошик </button>
+             <a href="#" class="line">
+           <i class="ri-heart-line"></i>
+        </a>
+     </div>
+    </div>
+    </li>
+
+<!-- 9 -->
+
+</ul>
+    </div>
+      </div>
+        </div>
+          </div>
+           </div>         
+              </div>
+            </div>
+<!-- end tabbed products -->
+
+
+
+<!-- MASTERPIECE -->
+<main>
+<div class="masterpiece has-bg">
+            <div class="container"> 
+              <div class="head-brief up animate">
+              <h3>Шедеври нашої кухні</h3>
+              <p> Ви зможете покуштувати одні з кращих страв європейської кухні в чудовому виконанні наших професіоналів. </p>
+                </div>
+                <div class="wrapper">
+                         <div class="item left animate">
+                             <div class="image">
+                             <img src="../assets/slider/food3.png" alt=""></div>
+                              <div class="text right up animate">
+                              <h2>Тост прошуто</h2>
+                              <p>Тост зі скоринкою та подушка з авокадо та шпинатом.Це не тільки смачно, а ще й суперкорисно. Блідо-рожеві, ледь блискучі тонкі скибочки прошуто додають у страви наприкінці готування </p>
+                            </div>
+                         </div>
+                  <div class="item right animate">
+                          <div class="image">
+                          <img src="../assets/slider/food4.png" alt=""></div>
+                           <div class="text left up animate">
+                           <h2>Спайсі закуска</h2>
+                           <p>Тако з гострим соусом чилі.Taco de Tortilla - це ідеальна суміш інгредієнтів, які використовуються в багатьох кухнях світу, поєднаних в мексиканському стилі. </p>
+                         </div>
+                      </div>
+                  <div class="item left animate">
+                        <div class="image">
+                        <img src="../assets/slider/food2.png" alt=""></div>
+                         <div class="text right up animate">
+                         <h2>Рибний тост</h2>
+                         <p>Сьомга, мікрозелень та ніжний вершковий сир. 
+                          Подаруйте собі та своїм рідним людям відчуття легкості та польоту і незабутнього відпочинку в ресторані. </p>
+                       </div>
+                    </div>
+                  <div class="item right animate">
+                      <div class="image">
+                      <img src="../assets/slider/food5.png" alt=""></div>
+                       <div class="text left up animate">
+                       <h2>Курча по тайськи</h2>
+                       <p>Овочі на гарнір в доповнення до курятини тушкованої в соусі теріякі. Смачна новинка з нотками Азії.
+                        Родзинка, яка надає неймовірного смаку - соус світ чілі.</p>
+                     </div>
+                  </div>
+              </div>
+              <div class="bg-dark"></div>
+          </div>
+        </main>
+<!-- end masterpiece -->
+
+
+
+<!-- FROMBLOG -->
+<main>
+<div class="fromblog has-bg">
+  <div class="bg-dark"></div>
+  <div class="container">
+    <div class="head-brief up animate">
+      <h3>Цікаве про їжу</h3>
+      <p> Ви зможете покуштувати одні з кращих страв європейської кухні в чудовому виконанні наших професіоналів. </p>
+        </div>
+               <div class="wrapper">
+                <div class="post-list products">
+                  <ul>
+                    <li>
+                      <div class="thumbnail covering">
+                        <a href="#"><img src="../assets/categories/cat6.jpg"></a>
+                      </div>
+                      <div class="meta">
+                        <div class="catrate">
+                          <span class="cat">
+                            <a href="#">Кулінарія</a>
+                          </span>
+                          <span class="date">09 березня 2023</span>
+                        <h2><a href="#"> Давайте приготуємо разом </a></h2>
+                   </div>
+               </li>
+               <li>
+                <div class="thumbnail covering">
+                  <a href="#"><img src="../assets/categories/cat4.jpg"></a>
+                </div>
+                <div class="meta">
+                  <div class="catrate">
+                    <span class="cat">
+                      <a href="#">Спеції</a>
+                    </span>
+                    <span class="date"> 12 лютого 2023</span>
+                  <h2><a href="#"> Вибухові факти про спеції </a></h2>
+             </div>
+         </li>
+         <li>
+          <div class="thumbnail covering">
+            <a href="#"><img src="../assets/categories/cat5.jpg"></a>
+          </div>
+          <div class="meta">
+            <div class="catrate">
+              <span class="cat">
+                <a href="#">Випічка</a>
+              </span>
+              <span class="date"> 5 січня 2023</span>
+            <h2><a href="#"> Де найпопулярнішими є круасани </a></h2>
+       </div>
+          </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</main>
+<!-- end fromblog -->
+
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="wrapper">
+      <div class="widget-footer">
+        <h4>Ресторан</h4>
+        <ul>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Послуги</a></li>
+          <li><a href="#">Меню</a></li>
+          <li><a href="#">Блог</a></li>
+        </ul>
+      </div>
+      <div class="widget-footer">
+        <h4>Підтримка</h4>
+        <ul>
+          <li><a href="#">Менеджер</a></li>
+          <li><a href="#">Відгуки</a></li>
+          <li><a href="#">Кабінет</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </div>
+            <div class="widget-footer">
+              <div class="logo"><a href="#">.BestFood</a></div>
+              <p>Розкішно. Витончено. По-італійськи" - такий слоган нового ресторану італійської кухні. Ресторан розташований в старому будинку, в самому центрі міста на Площі Ринок. </p>
+              <p2> Львів, вул. Братів Рогатинців, 5 <br> Ми в соціальних мережах:</p2>
+            <ul class="socials">
+              <li><a href="#"><i class="ri-facebook-line"></i></a></li>
+              <li><a href="#"><i class="ri-twitter-line"></i></a></li>
+              <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+            </ul>
+      </div>
+    </div>
+    <p class="copyright"> © 2023 Viktoriia Smith </p>
+  </div>
+  <div class="bg-dark"></div>
+</main>
+</footer>
+    
+        </div>
+      <div class="overlay"></div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
